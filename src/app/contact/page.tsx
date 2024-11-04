@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import "../styles/contact.css";
 import { FaFacebook, FaInstagram ,FaWhatsapp} from "react-icons/fa";
 

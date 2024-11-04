@@ -1,6 +1,5 @@
 
 import "../styles/hero.css";
-import Image from "next/image";
 
 function Hero(){
   return(
