@@ -3,7 +3,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 2px;
-    background-color:#fff; 
+    background-color:#fff;
+    height: 10vh; 
   
   }
   
@@ -51,19 +52,20 @@
   @media (max-width: 768px) {
     
     .toggle-button {
-      display: block;
+      display: none;
       font-size: 2rem;
       color: #834333;
       justify-content: space-between;
-    align-items: center;
+      align-items: center;
+    
     }
   
     
     .navList {
-      display: none; 
+      display: flex; 
       flex-direction: column;
       position: absolute;
-      top: 60px;
+      top: 50px;
       right: 20px;
       background-color: #fff;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -92,12 +94,16 @@
   }
   @media (max-width:480px){
     .logo h1{
-      font-size: 3rem;
+      font-size: 2rem;
+    }
+    .navList{
+      display: flex;
     }
     .toggle-button{
-      font-size: 2rem;
+      font-size: 3rem;
       justify-content: space-between;
       align-items: center;
+      display: flex;
     }
   }
 

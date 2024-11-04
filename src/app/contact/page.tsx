@@ -3,6 +3,8 @@ import "../styles/contact.css";
 import { FaFacebook, FaInstagram ,FaWhatsapp} from "react-icons/fa";
 
 
+
+
 function Contact(){
     return(
         <section className="contact">
@@ -26,6 +28,8 @@ function Contact(){
                 </div>
             </div>
         </div>
+    
+    
     </section>
     
     )
