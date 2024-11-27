@@ -8,8 +8,10 @@ function Hero(){
       <p className="intro">Made primarily from cocoa solids and cocoa butter dark chocolate is known 
       for its rich,intnse flavour and potntial health benefits</p>
       <button className="btn">Shop Now</button>
+      </div>
+      
 
-    </div>
+    
   )
 }
 

@@ -14,6 +14,8 @@ function About(){
                 <button className="btn1">more info</button>
             </div>
         </div>
+        
+        
     </section>
    
     )
